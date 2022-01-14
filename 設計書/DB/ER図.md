@@ -89,6 +89,8 @@ reg_date
 
 }
 
+d_purchase }o--o| m_customers 
+ d_purchase_detail }|--|| d_purchase
 
 
 
