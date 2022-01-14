@@ -94,7 +94,6 @@ d_purchase }o--o| m_customers
  m_items }o--|| m_category
  m_favorite }o-- m_customers
  m_favorite }o-- m_items
- d_history ||--|| d_purchase
 
 
 
