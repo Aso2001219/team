@@ -91,6 +91,8 @@ reg_date
 
 d_purchase }o--o| m_customers 
  d_purchase_detail }|--|| d_purchase
+ m_items }o--|| m_category
+ m_favorite }o-- m_customers
 
 
 
