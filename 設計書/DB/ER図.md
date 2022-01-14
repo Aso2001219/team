@@ -89,6 +89,19 @@ reg_date
 
 }
 
+ entity "履歴テーブル" as p_history <p_history> <<T,TEBUE_MARK_COLOR>>{
++ history_id[PK][NN]
+--
+customer_id
+item_name
+image
+price
+num
+purchase_date
+del_flag
+}
+
+
  d_purchase }o--o| m_customers 
  d_purchase_detail }|--|| d_purchase
  m_items }o--|| m_category
