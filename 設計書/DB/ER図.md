@@ -21,7 +21,7 @@ skinparam class {
 }
 
 
- entity "購入テーブル" as purchase <d_purchase> <<T,TEBUE_MARK_COLOR>>{
+ entity "購入テーブル" as d_purchase <d_purchase> <<T,TEBUE_MARK_COLOR>>{
 + order_id[PK]
 --
 customer_code
